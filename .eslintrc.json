@@ -1,0 +1,23 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint/eslint-plugin"],
+  "rules": {
+    "@typescript-eslint/indent": ["error", 4],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_"
+      }
+    ],
+    "arrow-parens": "error",
+    "indent": ["error", 4],
+    "no-trailing-spaces": "error",
+    "prefer-const": "error",
+    "quotes": ["error", "single"],
+    "semi": "error"
+  }
+}
