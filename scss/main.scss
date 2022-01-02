@@ -1,0 +1,54 @@
+@use '~@matteusan/himig-web' as himig;
+
+@include himig.init() {
+    ::-moz-selection {
+        color: himig.theme-token-get('accent-ink');
+        background: himig.theme-token-get('accent');
+    }
+    
+    ::selection {
+        color: himig.theme-token-get('accent-ink');
+        background: himig.theme-token-get('accent');
+    }
+    
+    // #__next {
+    //     min-height: 100vh;
+    //     display: flex;
+    //     flex-flow: column nowrap;
+    //     justify-content: space-between;
+    // }
+    
+    .content-wrap {
+        width: calc(100% - 30px);
+        max-width: 977px;
+        margin: 0 auto;
+        padding: 2em 0 5em 0;
+    }
+    
+    .grid {
+        margin-top: 0.7rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+        
+        > a {
+            grid-column: revert;
+        }
+        
+        @include himig.helper-breakpoint('medium') {
+            grid-template-columns: repeat(2, 1fr);
+            
+            > a {
+                grid-column: span 2;
+            }
+        }
+        
+        @include himig.helper-breakpoint('large') {
+            grid-template-columns: repeat(3, 1fr);
+            
+            > a {
+                grid-column: revert;
+            }
+        }
+    }
+}
