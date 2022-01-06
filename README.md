@@ -21,4 +21,4 @@ yarn dev
 ```
 
 For prod servers:
-- Just deploy it in vercel, no big deal lmao.
+- Just deploy it to vercel or netlify. Really up to you :)
