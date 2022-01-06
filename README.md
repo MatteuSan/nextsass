@@ -10,7 +10,16 @@ Yes I know the acronym sucks, but this stack is pretty OP for my use cases.
 - React Icons (Icons)
 - ESLint (Formatting)
 
-## Doing the running things n' stuff :)
+## Usage
+Use this repo as a template.
+
+![img.png](img.png)
+
+Clone the repo you've made from the template
+```shell
+git clone https://github.com/MyUser/my-repo-name
+```
+
 For dev servers:
 ```shell
 npm run dev
