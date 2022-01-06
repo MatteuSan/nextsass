@@ -1,6 +1,6 @@
 /*
+ *  Copyright (c) 2022 Matteu
  *
- *  Copyright (c) 2021 Matteu
  *  Permission is hereby granted, free of charge, to any person obtaining a copy
  *  of this software and associated documentation files (the "Software"), to deal
  *  in the Software without restriction, including without limitation the rights
@@ -18,17 +18,16 @@
  *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  *  SOFTWARE.
- *
  */
 
-import React, { useState, useEffect, ReactElement } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 interface HCHeaderProps {
     title?: string;
     link?: string;
-    actionSection?: ReactElement|any;
-    searchSection?: ReactElement|any;
+    actionSection?: React.ReactElement;
+    searchSection?: React.ReactElement;
     isScrollable?: boolean;
 }
 

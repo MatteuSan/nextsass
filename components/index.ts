@@ -1,6 +1,6 @@
 /*
+ *  Copyright (c) 2022 Matteu
  *
- *  Copyright (c) 2021 Matteu
  *  Permission is hereby granted, free of charge, to any person obtaining a copy
  *  of this software and associated documentation files (the "Software"), to deal
  *  in the Software without restriction, including without limitation the rights
@@ -18,19 +18,18 @@
  *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  *  SOFTWARE.
- *
  */
 
 import { HCAppbar, HCAppbarItem } from './HCAppbar';
-import HCButton from "./HCButton";
-import HCCard from "./HCCard";
-import HCFooter from "./HCFooter";
-import { HCHeader, HCHeaderBrand, HCHeaderSearch, HCHeaderActions, HCHeaderDiv } from "./HCHeader";
-import HCHero from "./HCHero";
-import { HCNavbar, HCNavbarItem, HCNavbarTrigger } from "./HCNavbar";
-import HCTag from "./HCTag";
+import HCButton from './HCButton';
+import HCCard from './HCCard';
+import HCFooter from './HCFooter';
+import { HCHeader, HCHeaderBrand, HCHeaderSearch, HCHeaderActions, HCHeaderDiv } from './HCHeader';
+import HCHero from './HCHero';
+import { HCNavbar, HCNavbarItem, HCNavbarTrigger } from './HCNavbar';
+import HCTag from './HCTag';
 import HCTextField from './HCTextField';
-import HCTitleBar from "./HCTitleBar";
+import HCTitleBar from './HCTitleBar';
 
 export {
     HCAppbar,
@@ -50,4 +49,4 @@ export {
     HCTag,
     HCTextField,
     HCTitleBar
-}
+};
